@@ -1,0 +1,28 @@
+command:
+  no-permission: You do not have permission to use AutoRegionFarm commands.
+  region:
+    added: 'Now watching WorldGuard region: {0}'
+    already-watched: 'That region is already watched: {0}'
+    ambiguous-console-region: 'More than one world has a region named "{0}". Use world:region.'
+    empty-list: No WorldGuard regions are currently watched.
+    invalid-format: 'Use a region name or world:region: {0}'
+    list-entry: '- {0}'
+    list-header: 'Watched WorldGuard regions:'
+    not-found: 'WorldGuard region was not found: {0}'
+    not-watched: 'That region is not watched: {0}'
+    removed: 'Stopped watching WorldGuard region: {0}'
+    unknown-world: 'World was not found: {0}'
+  reload:
+    success: AutoRegionFarm configuration has been reloaded.
+log:
+  config:
+    invalid-crop-material: 'Ignoring an unknown crop material: {0}'
+    invalid-notification-channel: 'Invalid notification channel "{0}". Falling back to action-bar.'
+    invalid-overflow-policy: 'Invalid harvest overflow policy "{0}". Falling back to drop.'
+    invalid-region-format: 'Ignoring an invalid watched region entry: {0}'
+    unknown-region: 'Ignoring an unknown watched WorldGuard region: {0}'
+    unknown-world: 'Ignoring a watched region in an unknown world: {0}'
+    unsupported-crop-material: 'Ignoring an unsupported crop material: {0}'
+notification:
+  harvest-overflow: Your inventory is full.
+  immature-crop: This crop is not mature yet.

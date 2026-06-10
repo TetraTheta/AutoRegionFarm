@@ -1,0 +1,20 @@
+api-version: '${api_version}'
+authors: ['TetraTheta']
+dependencies:
+  server:
+    WorldEdit:
+      join-classpath: true
+      load: BEFORE
+      required: true
+    WorldGuard:
+      join-classpath: true
+      load: BEFORE
+      required: true
+load: POSTWORLD
+main: io.github.tetratheta.autoregionfarm.AutoRegionFarm
+name: AutoRegionFarm
+version: '${version}'
+permissions:
+  autoregionfarm.admin:
+    default: op
+    description: Manage AutoRegionFarm settings and watched WorldGuard regions
